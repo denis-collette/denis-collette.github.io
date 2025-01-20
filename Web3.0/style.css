@@ -1,0 +1,320 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    font-family: 'Inter';
+    background-color: #fffdfa;
+    box-sizing: border-box;
+}
+
+    body {
+        margin: 0 auto;
+        max-width: 2400px;
+        padding: 10px;
+    }
+
+        header {
+            max-width: 1110px;
+            max-height: 39.9px;
+            min-height: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+            .logo {
+                min-width: 44.98px;
+                max-width: 39.9px;
+            }
+
+            header > nav {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+                .containerMenuLine {}
+
+                    .menuLine1 {
+                        width: 40px;
+                        height: 3px;
+                        background-color: black;
+                        margin: 5px;
+                    }
+
+                    .menuLine2 {
+                        width: 40px;
+                        height: 3px;
+                        background-color: black;
+                        margin: 5px;
+                    }
+
+                    .menuLine3 {
+                        width: 40px;
+                        height: 3px;
+                        background-color: black;
+                        margin: 5px;
+                    }
+
+                .menu {
+                    display: flex;
+                }
+
+                    .menu > li {
+                        flex-direction: row;
+                        list-style: none;
+                        padding: 5px;
+                        margin-left: 5px;
+                    }
+
+                    .menu > li:hover {
+                        background-color: #f15d51;
+                        color: #fffdfa;
+                    }
+
+                    .menu > li > a {
+                        text-decoration: none;
+                    }
+
+        .containerWide {
+            display: flex;
+            margin: 0 auto;
+            max-width: 1110px;
+            margin-bottom: 10px;
+        }
+
+            main {
+                max-width: 730px;
+                margin: 0 auto;
+                margin-right: 5px;
+            }
+
+                main > .containerImageMain {
+                    height: 300px;
+                    margin: 0 auto;
+                }
+
+                main > .containerImageMain > img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                main > .containerArticleMain {
+                    padding: 10px;
+                }
+
+                main > .containerArticleMain > h1 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    line-height: 40px;
+                }
+
+                main > .containerArticleMain > p {
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #5E607A;
+                    margin-bottom: 10px;
+                }
+
+                main > .containerArticleMain > button {
+                    background-color: #f15d51;
+                    color: #fffdfa;
+                    text-transform: uppercase;
+                    text-align: center;
+                    width: 185px;
+                    height: 48px;
+                    border: none;
+                }
+
+                main > .containerArticleMain > button:hover {
+                    background-color: #ff9e95;
+                }
+
+                main > .containerArticleMain > button > a {
+                    text-decoration: none;
+                    font-size: 14px;
+                    letter-spacing: 4.38px;
+                }
+
+            .newArticles {
+                max-width: 100%;
+                margin: 0 auto;
+                margin-right: 0px;
+                margin-left: 0px;
+                background-color: #00001a;
+                padding: 20px;
+            }
+
+                aside > h2 {
+                    color: #e9aa52;
+                    font-size: 32px;
+                    font-weight: 700;
+                    margin-top: 0px;
+                }
+
+                aside > article > a {
+                    text-decoration: none;
+                }
+
+                aside > article > a > h3 {
+                    color: #fffdfa;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                aside > article > a > p {
+                    color: #c5c6ce;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                .new1 {
+                }
+
+                .new1:hover {
+                    background-color: #fffdfa;
+                    & h3{
+                        color: #00001a;
+                    };
+                    & p {
+                        color: #00001a;
+                    }
+                }
+
+                .new2 {}
+
+                .new2:hover {
+                    background-color: #fffdfa;
+                    & h3{
+                        color: #00001a;
+                    };
+                    & p {
+                        color: #00001a;
+                    }
+                }
+
+                .new3 {}
+
+                .new3:hover {
+                    background-color: #fffdfa;
+                    & h3{
+                        color: #00001a;
+                    };
+                    & p {
+                        color: #00001a;
+                    }
+                }
+
+        .topArticles {
+            max-width: 1110px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+            .topArticles > article {
+            display: flex;
+            margin-bottom: 10px;
+            }
+
+            .topArticles > article > img {
+                margin-right: 10px;
+                width: 100px;
+            }
+
+            .topArticles > article > div {}
+
+            .topArticles > article > div > h2 {
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 32px;
+                color: #c5c6ce;
+                margin-top: 0px;
+            }
+
+            .topArticles > article > div > h3 {
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 24px;
+                color: #00001a;
+            }
+
+            .topArticles > article > div > p {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                color: #5E607A;
+            }
+
+            .top1 {}
+
+            .top1:hover {
+                background-color: #00001a;
+                & h2 {
+                    color: #fffdfa;
+                }
+                & h3{
+                    color: #fffdfa;
+                };
+                & p{
+                    color: #fffdfa;
+                }
+            }
+
+            .top2 {}
+
+            .top2:hover {
+                background-color: #00001a;
+                & h2 {
+                    color: #fffdfa;
+                }
+                & h3{
+                    color: #fffdfa;
+                };
+                & p{
+                    color: #fffdfa;
+                }
+            }
+
+            .top3 {}
+
+            .top3:hover {
+                background-color: #00001a;
+                & h2 {
+                    color: #fffdfa;
+                }
+                & h3{
+                    color: #fffdfa;
+                };
+                & p{
+                    color: #fffdfa;
+                }
+            }
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .containerWide {
+        flex-direction: column;
+    }
+
+    .topArticles {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .containerMenuLine {
+        display: none;
+    }
+
+    main > .containerImageMain {
+        max-width: 730px;
+    }
+}

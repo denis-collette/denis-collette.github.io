@@ -3,6 +3,7 @@
 
 
 .banner {
+  margin-top: 64px;
   z-index: -15;
   height: 650px;
   background-image: url(Assets/banner-background-main.jpg);
@@ -20,10 +21,14 @@
   }
   .arrow-banner {
     position: absolute;
-    left: -312px;
-    bottom: 34px;
+    bottom: 34px;      
+    left: -312px;     
+    z-index: -1;    
+    height: 138px;   
   }
   .container {
+    margin-top: 115px;
+    margin-bottom: 179px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +52,438 @@
     }
     button {
       margin: 0;
+    }
+  }
+}
+
+.tuto {
+  width: 100vw;
+  .container {
+    max-width: 311px;
+    height: 792px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .bar-tuto {
+      display: none;
+    }
+    .tuto-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 56px;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.89px;
+        text-align: center;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+    .tuto-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 56px;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.89px;
+        text-align: center;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+    .tuto-3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 56px;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.89px;
+        text-align: center;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.description {
+  .container {
+    margin-bottom: 120px;
+    .description-1-arrow {
+      display: none;
+    }
+    .description-1-circle {
+      display: none;
+    }
+    .description-2-arrow {
+      display: none;
+    }
+    .description-2-circle {
+      display: none;
+    }
+    .description-3-arrow {
+      display: none;
+    }
+    .description-3-circle {
+      display: none;
+    }
+    .description-1 {
+      img {
+        width: 311px;
+        margin-bottom: 56px;
+      }
+      .text {
+        height: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+          margin: 0;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: -1.43px;
+          text-align: center;
+        }
+        p {
+          margin: 0;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+    }
+    .description-2 {
+      img {
+        width: 311px;
+        margin-bottom: 56px;
+      }
+      .text {
+        height: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+          margin: 0;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: -1.43px;
+          text-align: center;
+        }
+        p {
+          margin: 0;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+    }
+    .description-3 {
+      img {
+        width: 311px;
+        margin-bottom: 56px;
+      }
+      .text {
+        height: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+          margin: 0;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: -1.43px;
+          text-align: center;
+        }
+        p {
+          margin: 0;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .banner {
+    z-index: -15;
+    height: 650px;
+    background-image: url(Assets/banner-background-main.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .bar-banner {
+      display: none;
+    }
+    .dots-banner {
+      display: none;
+    }
+    .arrow-banner {
+      position: absolute;
+      bottom: 34px;      
+      left: -312px;     
+      z-index: -1;    
+      height: 138px;   
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 296px;
+      width: 573px;
+      h1 {
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: -2.5px;
+        font-size: 56px;
+        line-height: 56px;
+        margin: 0;
+        color: white;
+      }
+      p {
+        color: white;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+      }
+      button {
+        margin: 0;
+      }
+    }
+  }
+  
+  .tuto {
+    width: 100vw;
+    .container {
+      max-width: 311px;
+      height: 792px;
+      margin-top: 120px;
+      margin-bottom: 120px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      .bar-tuto {
+        display: none;
+      }
+      .tuto-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 56px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: -0.89px;
+          text-align: center;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+      .tuto-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 56px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: -0.89px;
+          text-align: center;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+      .tuto-3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 56px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: -0.89px;
+          text-align: center;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          text-align: center;
+        }
+      }
+    }
+  }
+  
+  .description {
+    .container {
+      margin-bottom: 120px;
+      .description-1-arrow {
+        display: none;
+      }
+      .description-1-circle {
+        display: none;
+      }
+      .description-2-arrow {
+        display: none;
+      }
+      .description-2-circle {
+        display: none;
+      }
+      .description-3-arrow {
+        display: none;
+      }
+      .description-3-circle {
+        display: none;
+      }
+      .description-1 {
+        img {
+          width: 311px;
+          margin-bottom: 56px;
+        }
+        .text {
+          height: 331px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          h2 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -1.43px;
+            text-align: center;
+          }
+          p {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+          }
+        }
+      }
+      .description-2 {
+        img {
+          width: 311px;
+          margin-bottom: 56px;
+        }
+        .text {
+          height: 331px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          h2 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -1.43px;
+            text-align: center;
+          }
+          p {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+          }
+        }
+      }
+      .description-3 {
+        img {
+          width: 311px;
+          margin-bottom: 56px;
+        }
+        .text {
+          height: 331px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          h2 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -1.43px;
+            text-align: center;
+          }
+          p {
+            margin: 0;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }

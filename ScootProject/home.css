@@ -1,0 +1,50 @@
+@import url(reset.css);
+@import url(variables.css);
+.banner {
+  z-index: -15;
+  height: 650px;
+  background-image: url(Assets/banner-background-main.jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner .bar-banner {
+  display: none;
+}
+.banner .dots-banner {
+  display: none;
+}
+.banner .arrow-banner {
+  position: absolute;
+  left: -312px;
+  bottom: 34px;
+}
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 356px;
+  width: 311px;
+}
+.banner .container h1 {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -1.79px;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  color: white;
+}
+.banner .container p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}
+.banner .container button {
+  margin: 0;
+}/*# sourceMappingURL=home.css.map */

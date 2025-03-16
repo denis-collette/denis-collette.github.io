@@ -1,0 +1,60 @@
+{
+  "saved_on": "17/12/2024, 08:59:43",
+  "Master": {
+    "name": "Hamilton10",
+    "collection": [
+      {
+        "name": "Pioupiou",
+        "level": 1,
+        "experienceMeter": 7,
+        "attackRange": 6,
+        "defenseRange": 1,
+        "healthPool": 13,
+        "initialHealthPool": 26,
+        "catchPhrase": "Pokemilton, go!"
+      },
+      {
+        "name": "tinebas",
+        "level": 1,
+        "experienceMeter": 5,
+        "attackRange": 6,
+        "defenseRange": 2,
+        "healthPool": 0,
+        "initialHealthPool": 15,
+        "catchPhrase": "I choose you!"
+      },
+      {
+        "name": "lotteerre",
+        "level": 1,
+        "experienceMeter": 4,
+        "attackRange": 6,
+        "defenseRange": 2,
+        "healthPool": 18,
+        "initialHealthPool": 30,
+        "catchPhrase": "Let the battle begin!"
+      }
+    ],
+    "healingItems": 1,
+    "reviveItems": 1,
+    "pokeballs": 7,
+    "coins": 31,
+    "alive": true
+  },
+  "World": {
+    "day": 12,
+    "log": [
+      "Day 11: You won against dentien and gain 6 coins, congratulation!",
+      "Day 10: You won against robquen and gain 10 coins, congratulation!",
+      "Day 9: You won against âdric and gain 8 coins, congratulation!",
+      "Day 8: You won against najtien and gain 7 coins, congratulation!",
+      "Day 7: Nothing happened",
+      "Day 6: You captured a new Pokemilton: lotteerre",
+      "Day 5: You captured a new Pokemilton: tinebas",
+      "Day 4: Nothing happened",
+      "Day 3: Nothing happened",
+      "Day 2: Nothing happened",
+      "Day 1: You lost against exdi... and lost the game."
+    ],
+    "status": true
+  }
+}

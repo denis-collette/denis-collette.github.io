@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* Typo header title */
+
+
+/* COLORS
+Light pink : #ffbdd6, 
+Pink : #ff68b9, 
+Light green : #c4f3b1, 
+Green : #85f169, 
+Black-brown : #35231d
+*/
+
+html {
+  background-color: #ffbdd6;
+  color : #35231d;
+  font-family: 'Patrick Hand';
+}
+
+button {
+  color: #ff68b9;
+  background-color: #c4f3b1;
+  border : 1.5px solid #c4f3b1;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+}
+
+button:hover {
+  border : 1.5px solid #35231d;
+  border-radius: 7px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #85f169;
+  -webkit-text-stroke: 0.005px #35231d;
+}
+
+/* Container */
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    img {
+      width: 50px;
+      margin-right: 10px;
+    }
+    h1 {
+      font-family: 'Rubik Wet Paint';
+      color: #85f169;
+      -webkit-text-stroke: 0.5px #35231d;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        display: flex;
+        margin-right: 10px;
+        color: #ff68b9;
+        background-color: #c4f3b1;
+        border : 1.5px solid #c4f3b1;
+        border-radius: 7px;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+      }
+      li:hover {
+        border : 1.5px solid #35231d;
+      }
+      a:visited {
+        color: #ff68b9;
+      }
+    }
+  }
+}
+
+/* Page home */
+.Intro {
+  text-align: center;
+}
+
+.Turtle {
+  width: 150px;
+}
+
+.DisplayEvents {
+  background-color: #c4f3b1;
+  border : 1.5px solid #35231d;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  ul {
+    color: #ff68b9;
+    li {
+      text-align: left;
+      list-style: none;
+      margin: 8px;
+      a {
+        text-decoration: none;
+        border : 1px solid #c4f3b1;
+        padding: 2px 4px;
+      }
+      a:hover {
+        border : 1px solid #35231d;
+        border-radius: 7px;
+      }
+      a:visited {
+        color: #ff68b9;
+      }
+    }
+  }
+}
+
+/* Page create event */
+.FormNewEvent {
+  input {
+    margin-bottom: 15px;
+  }
+}
+
+/* Page event */
+.inputAttendees {
+  width: 250px;
+  margin: 0 auto;
+  background-color: #c4f3b1;
+  border : 1.5px solid #35231d;
+  border-radius: 7px;
+  padding: 5px;
+  text-align: center;
+}
+
+th, td {
+  color: #35231d;
+  background-color: #c4f3b1;
+  border : 1.5px solid #35231d;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+  color: #35231d;
+  background-color: #85f169;
+  border : 1.5px solid #35231d;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.attendanceBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greenBox {
+  background-color: rgb(156, 255, 98);
+  width: 15px;
+  border: 1px solid rgb(109, 224, 42);
+}
+
+.redBox {
+  background-color: rgb(247, 60, 60);
+  width: 15px;
+  border: 1px solid rgb(214, 31, 31);
+}
+
+.orangeBox {
+  background-color: rgb(255, 166, 0);
+  width: 15px;
+  border: 1px solid rgb(247, 140, 0);
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}

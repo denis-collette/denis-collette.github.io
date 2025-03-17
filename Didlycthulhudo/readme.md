@@ -1,3 +1,7 @@
+### How to 
+- run npm run dev in client
+- run node index.mjs in server
+
 # Didlydoo
 
 ![Didlydoo](logo.png)

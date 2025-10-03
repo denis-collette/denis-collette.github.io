@@ -1,16 +1,16 @@
 const students = 
   [
     'al', 'ex', 'and', 'ré', 'rii',
-    'bas', 'tien', 'bry', 'an', 'céd',
-    'ric', 'char', 'lotte', 'den',
-    'is', 'émi', 'lie', 'emma', 'nuel',
+    'bas', 'tien', 'bry', 'an',
+    'char', 'lotte', 'den', 'is', 
+    'émi', 'lie', 'emma', 'nuel',
     'fré', 'déric', 'gui', 'llaume',
     'hu', 'go', 'ja', 'âd', 'jam',
     'aldinne', 'jus', 'tine', 'luc',
     'as', 'mar', 'ie', 'tin', 'meh',
     'di', 'naj', 'ib', 'nic', 'olas',
-    'pas', 'cal', 'pi', 'erre', 'quen',
-    'rob', 'in', 'sco', 'tt'
+    'pi', 'erre', 'quen', 'rob', 
+    'in', 'sco', 'tt'
   ]
 
 class Pokemilton {
